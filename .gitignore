@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+.venv*/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*secret*
+*token*
+
+# Local application data
+data/
+*.db
+*.sqlite
+*.sqlite3
+imports/
+uploads/
+bilibili_session.json
+wechat_session.json
+
+# Frontend build and dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/dev-server.log
+
+# Logs and local outputs
+*.log
+@AutomationLog.txt
+wxauto_logs/
+output/
+graphify-out/
+wechat_article_collector/
+.github/workflows/daily.yml
+
+# Old unrelated local workspaces
+cunradar/
+config/
+public/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
