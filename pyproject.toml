@@ -1,0 +1,19 @@
+[project]
+name = "personal-content-organizer"
+version = "0.1.0"
+description = "本地个人内容整理平台：B站已关注 UP 主同步、分类和分析"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.116.0,<1.0",
+    "uvicorn[standard]>=0.35.0,<1.0",
+    "sqlalchemy>=2.0.43,<3.0",
+    "pydantic>=2.11.7,<3.0",
+    "python-multipart>=0.0.20,<1.0",
+    "python-dotenv>=1.1.1,<2.0",
+    "curl-cffi>=0.15.0,<1.0",
+    "qrcode>=8.0.0,<9.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
